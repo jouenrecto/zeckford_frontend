@@ -1,12 +1,14 @@
 body {
   min-height: 2000px;
   padding-top: 88px;
+  font-family: "Roboto",sans-serif;
 }
 
 .header-nav.navbar {
-	border-top: 7px solid #006fbd;
-	background-color: #00406d;
-	text-transform: uppercase;
+  background-color: #00406d;
+  border-top: 7px solid #006fbd;
+  text-transform: uppercase;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .header-nav.navbar-default .navbar-nav > li > a {
@@ -66,6 +68,7 @@ body {
   font-weight: 300;
   transition: .2s all;
   text-transform: uppercase;
+  border:1px solid #222;
 }
 
 .noti {
@@ -93,10 +96,99 @@ body {
   color: #fff;
 }
 
+.active.red {
+  background: rgb(208, 73, 59) none repeat scroll 0 0;
+}
+
+.section {
+	padding:25px 0;
+}
+
+#top {
+  background-color: #2f3143;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#cloud-image {
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url('../images/clouds_temp.jpg');
+}
+
+#top h1 {
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+#menu-hero li {
+  display: inline-block;
+  font-size: 21px;
+  list-style: outside none none;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+#menu-hero a {
+  letter-spacing: -0.5px;
+  transition: .1s all;
+}
+#menu-hero a:hover {
+  color: #26bcff;
+  text-decoration: none;
+}
+
+.jumbotron.cardbox {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+}
+
+.types {
+	padding-top:25px;
+}
+
+.typelist { 
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+}
+
+.typelist .type {
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 1.5%;
+  width: 15%;
+}
+
 @media(min-width: 1400px) {
 	.container {
     width: 1280px; 
   }
+}
+
+@media (max-width: 991px) {
+	.container {
+	    width: 990px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.nav.navbar-nav.navbar-right.inline > li {
+	  display: block !important;
+	  float: unset;
+	  text-align: right;
+	}
+
+	.nav.navbar-nav.navbar-right.inline {
+	  margin-top: 15px !important;
+	}
 }
 
 @media(min-width: 768px) {

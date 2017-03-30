@@ -53,24 +53,22 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">New</a></li>
-            <li><a href="#">Used</a></li>
-            <li><a href="#">Types</a></li>
-            <li><a href="#">Models</a></li>
-            <li><a href="#">Brands</a></li>
-            <li><a href="#"><i class="fa fa-search"></i></a></li>
-            <!--<li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types <span class="caret"></span></a>
+            <li class="hidden-sm"><a href="#">New</a></li>
+            <li class="hidden-sm"><a href="#">Used</a></li>
+            <li class="hidden-sm"><a href="#">Types</a></li>
+            <li class="hidden-sm"><a href="#">Models</a></li>
+            <li class="hidden-sm"><a href="#">Brands</a></li>
+            <li class="dropdown hidden-md hidden-lg hidden-xs">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More... <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Used</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">Models</a></li>
+                <li><a href="#">Brands</a></li>
               </ul>
-            </li>-->
+            </li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right inline">
             <li><span>Sales</span><a href="#about">(800) 394-1650</a></li>
@@ -79,19 +77,70 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+    <section id="top" class="section">
+      <div class="container">
+        <h1>Instant approval, Free delivery, Big discounts</h1>
+        <ul id="menu-hero" class="menu">
+          <li><a href="#">Contact Zeck Ford</a></li>
+          <li><a href="#">Why Zeck Ford?</a></li>
+          <li><a href="#">Get Financed</a></li>
+        </ul>
       </div>
+    </section>
 
-    </div> <!-- /container -->
+    <section id="cloud-image" class="section">
+      <div class="container">
+        
+        <div class="jumbotron cardbox">
+          
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="input-group input-group-lg">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"><i class="fa fa-search"></i> Search</button>
+                </span>
+                <input type="text" class="form-control" placeholder="What are you looking for?">
+              </div><!-- /input-group -->
+            </div><!-- /.col-lg-12 -->
+          </div>
+
+          <div class="row">
+            <div class="types">
+              <ul class="typelist">
+
+                <li class="type">
+                  <a href="#">
+                    <span>SUV</span>
+                    <img class="image" src="assets/images/750x500.png">
+                  </a>
+                </li>
+
+              </ul>
+            </div>  
+          </div>
+
+        </div>
+
+      </div>  
+    </section>
+    
+    <section class="section">
+      <div class="container">
+
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class="jumbotron">
+          <h1>Navbar example</h1>
+          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+          <p>To see the difference between static and fixed top navbars, just scroll.</p>
+          <p>
+            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          </p>
+        </div>
+
+      </div> <!-- /container -->
+    </section>
+
     <nav id="toolbar" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
       <div class="container">
         <div class="navbar-header">
