@@ -1,0 +1,100 @@
+body {
+  min-height: 2000px;
+  padding-top: 88px;
+}
+
+.header-nav.navbar {
+	border-top: 7px solid #006fbd;
+	background-color: #00406d;
+	text-transform: uppercase;
+}
+
+.header-nav.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: .3s all;
+}
+
+.header-nav.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  color: #fff;
+}
+
+.header-nav.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  background-color: transparent;
+  color: #4cbbff;
+}
+
+.header-nav .navbar-brand
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	margin:0 auto;
+}
+
+.header-nav .navbar-brand img {
+  display: unset;
+  margin-top: -12px;
+  width: 140px;
+}
+.navbar-toggle {
+  z-index:3;
+}
+
+#toolbar { 
+	background-color: #222; 
+	border-top:1px solid #000; 
+}
+
+#toolbar.navbar-default .navbar-nav > li {
+	position: relative;
+}
+
+#toolbar.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  transition: .2s all;
+  text-transform: uppercase;
+}
+
+.noti {
+  background-color: #eee;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 11px;
+  height: 15px;
+  line-height: 1;
+  padding: 2px 4px;
+  position: absolute;
+  width: 15px;
+  top:9px;
+  -webkit-box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+  right:2px;
+}
+
+.noti.red {
+  background-color: #d0493b;
+}
+
+#toolbar.navbar-default .navbar-nav > .open > a, #toolbar.navbar-default .navbar-nav > .open > a:focus, #toolbar.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media(min-width: 1400px) {
+	.container {
+    width: 1280px; 
+  }
+}
