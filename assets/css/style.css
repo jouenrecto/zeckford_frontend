@@ -98,3 +98,27 @@ body {
     width: 1280px; 
   }
 }
+
+@media(min-width: 768px) {
+	.header-nav .nav.navbar-nav.navbar-right.inline span, .header-nav .nav.navbar-nav.navbar-right.inline a {
+    display: inline;
+    color: #fff;
+	}
+
+	.header-nav .nav.navbar-nav.navbar-right.inline span {
+    margin-left: 5px; 
+	}
+
+	.header-nav .nav.navbar-nav.navbar-right.inline a {
+		color: #0096ff;
+		margin-left: -5px;
+	}
+
+	.header-nav .nav.navbar-nav.navbar-right.inline a:hover {
+		color: #4cbbff;
+	}
+
+	.nav.navbar-nav.navbar-right.inline {
+	  margin-top: 25px;
+	}
+}
