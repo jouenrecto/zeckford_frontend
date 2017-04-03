@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>The easiest car-buying experience ever</title>
+    <!-- Fontawesome core -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet"> 
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/plugins/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/plugins/bootstrap-3.3.7/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/plugins/bootstrap-3.3.7/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      #checkout-menu small {
+          color: #22527b;
+      }
+      h1 small, h2 small, h3 small {
+          display: block;
+      }
+      #checkout-menu h3 a, #checkout-menu h2 a, #checkout-menu h4 a {
+          color: #000000;
+          text-decoration: none;
+      }
+      #checkout-menu a {
+          color: #22527b;
+          text-decoration: underline;
+      }
+      #checkout-menu .btn {
+          margin-bottom: 10px;
+          text-decoration: none;
+      }
+      #checkout-menu a {
+          color: #22527b;
+          text-decoration: underline;
+      }
+      #checkout-menu .btn-secondary {
+          background-color: #e8e8e8;
+          color: #888888;
+      }
+      .btn {
+          text-transform: uppercase;
+      }
+      #checkout-steps {
+        text-align: center;
+      }
+      .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+        background-color: #337ab7;
+        border-color: #337ab7;
+        color: #ffffff;
+        z-index: 2;
+      }
+      .list-group-item:first-child {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+      }
+      a.list-group-item, button.list-group-item {
+        color: #555555;
+      }
+      .list-group-item {
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        display: block;
+        margin-bottom: -1px;
+        padding: 10px 15px;
+        position: relative;
+      }
+      #checkout-steps .badge {
+        border-radius: 35px;
+        display: block;
+        float: none;
+        font-size: 18px;
+        height: 35px;
+        margin: 0 auto;
+        padding: 7px 0 0;
+        width: 35px;
+      }
+      .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+        background-color: #ffffff;
+        color: #337ab7;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="header-nav navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/images/logo-blue.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Used</a></li>
+            <li><a href="#">Types</a></li>
+            <li><a href="#">Models</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Types <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right inline">
+            <li><span>Sales</span><a href="#about">(800) 394-1650</a></li>
+            <li><span>Service</span><a href="#contact">(913) 727-1650</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container">
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="well" id="checkout-menu">
+              <p><a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/used/barolo-black-metallic-2013-land-rover-range-rover-supercharged/"><img src="assets/images/cars/suv-image-1.jpg" pagespeed_url_hash="1646734746" style="max-width: 100%;"></a></p>
+              <p>Barolo Black Metallic 2013 Land Rover Range Rover Supercharged</p>
+              <section>
+                <h3><small>price</small><a href="/checkout/calculate-payment?v=15423">$66,550</a></h3>
+              </section>
+              <section>
+                <h3><small>trade in</small><a href="/checkout/trade-in-value?v=15423">No trade in</a></h3>
+                <p><a href="/checkout/trade-in-value?v=15423">Change trade in</a></p>
+              </section>
+              <section>
+                <h3><small>payment</small><a href="/checkout/calculate-payment?v=15423">No payment</a></h3>
+                <p><a href="/checkout/calculate-payment?v=15423">Payment calculator</a></p>
+              </section>
+              <section>
+                <a href="#createAccountModal" data-toggle="modal" data-target="#createAccountModal" class="btn btn-block btn-default btn-lg">Save progress</a>
+                <a href="#createAccountModal" data-toggle="modal" data-target="#createAccountModal" class="btn btn-secondary btn-block btn-sm">Sign in</a>
+                <a href="#" class="btn btn-secondary btn-block btn-sm">Start over</a>
+              </section>
+            </div>
+          </div>
+          <div class="col-sm-7">
+            <article>
+              <h1><small>Buy this car online</small>
+                The easiest car-buying experience ever</h1>
+              <div>
+                <iframe src="https://www.youtube.com/embed/qKC1xxI5CmA" allowfullscreen="allowfullscreen" frameborder="0" height="400px" width="100%"></iframe>
+                <h2>Get pre-approved in just a few steps</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non consequat ligula. Phasellus a erat ac odio elementum congue eget et purus. Curabitur vel mi luctus, feugiat massa in, lobortis quam. Phasellus commodo sagittis ligula, eget convallis eros ullamcorper imperdiet. Nulla sem erat, mattis ac nibh a, vulputate vestibulum odio. Vestibulum massa orci, gravida eu auctor ut, venenatis quis nibh. Quisque scelerisque arcu eu diam feugiat, in ornare orci hendrerit. Aliquam a semper turpis, vel molestie sapien. Praesent vulputate nibh sed fermentum commodo.
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-sm-4">
+                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/car-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="2046539607" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" height="55" width="76"></p>
+
+                    <h3 style="text-align: center;">Free delivery</h3>
+                    <p style="text-align: center;">Have a car delivered or meet us at our location for a completely free, zero-obligation, 24-hour test drive!</p>
+                    &nbsp;
+                  </div>
+                  <div class="col-sm-4">
+                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/dollar-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="3040351411" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" height="55" width="76"></p>
+
+                    <h3 style="text-align: center;">Trade in Appraisal</h3>
+                    <p style="text-align: center;">Are you planning on trading in your current car? Figure out how much your current car is worth.</p>
+                    &nbsp;
+                  </div>
+                  <div class="col-sm-4">
+                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/clipboard-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="2000891693" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
+
+                    <h3 style="text-align: center;">Online process</h3>
+                    <p style="text-align: center;">Our revolutionary process is completed nearly 100% online</p>
+                    &nbsp;
+
+                  </div>
+                </div>&nbsp;    
+              </div>
+              <section>
+                <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="btn btn-lg btn-success btn-block">Get started</a>
+              </section>
+            </article>
+          </div>
+          <div class="col-sm-2">
+            <h1><small>&nbsp;</small>Steps:</h1>
+            <div class="list-group" id="checkout-steps">
+              <a href="/checkout?v=15423" class="list-group-item active"><span class="badge">?</span>Instructions</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="list-group-item"><span class="badge">1</span> Trade In</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/calculate-payment/?v=15423" class="list-group-item"><span class="badge">2</span> Payment</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/contact-information/?v=15423" class="list-group-item"><span class="badge">3</span> Contact info</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/credit-application/?v=15423" class="list-group-item"><span class="badge">4</span> Pre-approval</a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /container -->
+    </section>
+
+    <section class="section footer-section">
+      <div id="footer" class="container">
+        <h2>Zeck Ford</h2>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Sell to Zeck</a></li>
+          <li><a href="#">Parts Center</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <nav id="toolbar" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#toolbox">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="toolbox" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+              <li class="dropup">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Viewed <span class="noti red">5</span> <span class="caret"></span></a>
+                <ul class="dropdown-menu dropup">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li class="dropup">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Saved <span class="noti red">5</span> <span class="caret"></span></a>
+                <ul class="dropdown-menu dropup">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#about">Top Page</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">Right</a></li>
+            <li><a href="#contact">Right</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/plugins/bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/plugins/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/plugins/bootstrap-3.3.7/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
