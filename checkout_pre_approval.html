@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>The easiest car-buying experience ever</title>
+    <title>Pre-Approval</title>
     <!-- Fontawesome core -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
@@ -112,52 +112,65 @@
           <div class="col-sm-7">
             <article>
               <h1><small>Buy this car online</small>
-                The easiest car-buying experience ever</h1>
+              Pre-approval - <span>step 4 of 4</span></h1>
               <div>
-                <iframe src="https://www.youtube.com/embed/qKC1xxI5CmA" allowfullscreen="allowfullscreen" frameborder="0" height="400px" width="100%"></iframe>
-                <h2>Get pre-approved in just a few steps</h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non consequat ligula. Phasellus a erat ac odio elementum congue eget et purus. Curabitur vel mi luctus, feugiat massa in, lobortis quam. Phasellus commodo sagittis ligula, eget convallis eros ullamcorper imperdiet. Nulla sem erat, mattis ac nibh a, vulputate vestibulum odio. Vestibulum massa orci, gravida eu auctor ut, venenatis quis nibh. Quisque scelerisque arcu eu diam feugiat, in ornare orci hendrerit. Aliquam a semper turpis, vel molestie sapien. Praesent vulputate nibh sed fermentum commodo.
+                <p>Dealer Track integration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mi quis mauris eleifend, quis rhoncus justo molestie. Proin eu bibendum mauris. Praesent in ante id lectus malesuada fermentum. Fusce volutpat est a tristique imperdiet. Cras velit ante, mollis id felis a, laoreet interdum velit. Proin turpis dui, mollis a dolor vitae, suscipit vulputate enim. Curabitur ipsum lorem, ornare non tincidunt nec, iaculis vitae sem. Aenean at est ultricies, dapibus purus vitae, rhoncus felis. Duis a quam lectus. Sed blandit eleifend suscipit. Quisque varius condimentum arcu, commodo elementum justo blandit ut. Vestibulum sed volutpat dui. In gravida ante in lobortis pretium.</p>
 
                 <hr>
-
-                <div class="row">
-                  <div class="col-sm-4">
-                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/car-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="2046539607" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" height="55" width="76"></p>
-
-                    <h3 style="text-align: center;">Free delivery</h3>
-                    <p style="text-align: center;">Have a car delivered or meet us at our location for a completely free, zero-obligation, 24-hour test drive!</p>
-                    &nbsp;
-                  </div>
-                  <div class="col-sm-4">
-                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/dollar-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="3040351411" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" height="55" width="76"></p>
-
-                    <h3 style="text-align: center;">Trade in Appraisal</h3>
-                    <p style="text-align: center;">Are you planning on trading in your current car? Figure out how much your current car is worth.</p>
-                    &nbsp;
-                  </div>
-                  <div class="col-sm-4">
-                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/clipboard-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="2000891693" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
-
-                    <h3 style="text-align: center;">Online process</h3>
-                    <p style="text-align: center;">Our revolutionary process is completed nearly 100% online</p>
-                    &nbsp;
-
-                  </div>
-                </div>&nbsp;    
+                
+                <form class="form">
+                  <section>
+                    <h3>Financial information</h3>
+                    <div class="form-group">
+                      <label>Total monthly income before taxes:</label><br>
+                      <input class="form-control" placeholder="Example: 5,000" type="number">
+                    </div>
+                    <div class="form-group">
+                      <label>House payment or rent</label><br>
+                      <input class="form-control" placeholder="Enter monthly rent in dollars $" type="number">
+                    </div>
+                    <div class="form-group">
+                      <label>Length of time at current residence</label><br>
+                      <input class="form-control" placeholder="Number of months" type="number">
+                    </div>
+                    <div class="form-group">
+                      <label>Do you own or rent your home?</label><p></p>
+                      <div class="radio">
+                        <label><input name="tenancy" id="rent" value="rent" checked="" type="radio">Rent</label>
+                      </div>
+                      <div class="radio">
+                        <label><input name="tenancy" id="own" value="own" type="radio">Own or purchasing</label>
+                      </div>
+                    </div>
+                  </section>
+                  <hr>
+                  <section>
+                    <h3>Personal information</h3>
+                    <div class="form-group"><label>Digital signature:</label><input class="form-control" placeholder="Enter your full name and middle initial" type="text"></div>
+                    <div class="form-group"><label>Social Security number:</label><input class="form-control" placeholder="Enter your social security number" type="number"></div>
+                    <div class="form-group"><label>Birth date:</label><input class="form-control" placeholder="What day were you born on?" type="date"></div>
+                    <div class="checkbox">
+                      <label><br>
+                        <input type="checkbox"> I agree to the <a href="/terms/">terms and conditions</a> and authorize Zeck Ford, Inc. to use my provided information to obtain a consumer credit report from one or more credit reporting agencies. I certify that the information I have provided is true and given for the purpose of applying for and obtaining credit.<br>
+                      </label>
+                    </div>
+                  </section>
+                  <hr>
+                  <section><a class="btn btn-block btn-success btn-lg href=" #"="">Get pre-approved</a><p></p>
+                    <p class="text-muted centered">*All rates and terms are subject to approval from lending institution.</p>
+                  </section>
+                </form>
               </div>
-              <section>
-                <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="btn btn-lg btn-success btn-block">Get started</a>
-              </section>
             </article>
           </div>
           <div class="col-sm-2">
             <h1><small>&nbsp;</small>Steps:</h1>
             <div class="list-group" id="checkout-steps">
-              <a href="/checkout?v=15423" class="list-group-item active"><span class="badge">?</span>Instructions</a>
-              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="list-group-item"><span class="badge">1</span> Trade In</a>
-              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/calculate-payment/?v=15423" class="list-group-item"><span class="badge">2</span> Payment</a>
-              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/contact-information/?v=15423" class="list-group-item"><span class="badge">3</span> Contact info</a>
-              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/credit-application/?v=15423" class="list-group-item"><span class="badge">4</span> Pre-approval</a>
+              <a href="/checkout?v=15423" class="list-group-item"><span class="badge badge-success"><span class="glyphicon glyphicon-ok"></span></span>Instructions</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="list-group-item "><span class="badge">1</span> Trade In</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/calculate-payment/?v=15423" class="list-group-item "><span class="badge">2</span> Payment</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/contact-information/?v=15423" class="list-group-item "><span class="badge">3</span> Contact info</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/credit-application/?v=15423" class="list-group-item active"><span class="badge">4</span> Pre-approval</a>
             </div>
           </div>
         </div>

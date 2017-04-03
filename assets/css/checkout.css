@@ -1,0 +1,79 @@
+#checkout-menu small {
+    color: #22527b;
+}
+h1 small, h2 small, h3 small {
+    display: block;
+}
+#checkout-menu h3 a, #checkout-menu h2 a, #checkout-menu h4 a {
+    color: #000000;
+    text-decoration: none;
+}
+#checkout-menu a {
+    color: #22527b;
+    text-decoration: underline;
+}
+#checkout-menu .btn {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#checkout-menu a {
+    color: #22527b;
+    text-decoration: underline;
+}
+#checkout-menu .btn-secondary {
+    background-color: #e8e8e8;
+    color: #888888;
+}
+.btn {
+    text-transform: uppercase;
+}
+#checkout-steps {
+  text-align: center;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  color: #ffffff;
+  z-index: 2;
+}
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+a.list-group-item, button.list-group-item {
+  color: #555555;
+}
+.list-group-item {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  display: block;
+  margin-bottom: -1px;
+  padding: 10px 15px;
+  position: relative;
+}
+#checkout-steps .badge {
+  border-radius: 35px;
+  display: block;
+  float: none;
+  font-size: 18px;
+  height: 35px;
+  margin: 0 auto;
+  padding: 7px 0 0;
+  width: 35px;
+}
+.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+  background-color: #ffffff;
+  color: #337ab7;
+}
+#checkout-steps .badge-success {
+    background-color: #5cb85c;
+}
+.alignright {
+    float: right;
+    margin: 5px 0 25px 35px;
+}
+.centered {
+    text-align: center;
+}
+
+

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>The easiest car-buying experience ever</title>
+    <title>Payment</title>
     <!-- Fontawesome core -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
@@ -112,50 +112,75 @@
           <div class="col-sm-7">
             <article>
               <h1><small>Buy this car online</small>
-                The easiest car-buying experience ever</h1>
+              Payment - <span>step 2 of 4</span></h1>
               <div>
-                <iframe src="https://www.youtube.com/embed/qKC1xxI5CmA" allowfullscreen="allowfullscreen" frameborder="0" height="400px" width="100%"></iframe>
-                <h2>Get pre-approved in just a few steps</h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non consequat ligula. Phasellus a erat ac odio elementum congue eget et purus. Curabitur vel mi luctus, feugiat massa in, lobortis quam. Phasellus commodo sagittis ligula, eget convallis eros ullamcorper imperdiet. Nulla sem erat, mattis ac nibh a, vulputate vestibulum odio. Vestibulum massa orci, gravida eu auctor ut, venenatis quis nibh. Quisque scelerisque arcu eu diam feugiat, in ornare orci hendrerit. Aliquam a semper turpis, vel molestie sapien. Praesent vulputate nibh sed fermentum commodo.
+                <iframe src="https://www.youtube.com/embed/jRIKz68glJ0" allowfullscreen="allowfullscreen" frameborder="0" height="400" width="100%"></iframe>
+                <h2>Estimate your payment</h2>
+                <p>VIN Solutions integration. Aliquam a fringilla augue. Curabitur venenatis ipsum eget urna vulputate ornare. Curabitur lacinia auctor lorem. Integer non lectus ut eros dapibus mollis ac vitae nunc. Maecenas faucibus consequat erat quis convallis. Ut posuere pellentesque hendrerit. Maecenas sodales, neque ut porta facilisis, nulla massa feugiat velit, semper vulputate tortor tortor sit amet nisl. Nam facilisis eros varius lacus bibendum imperdiet. Nam tincidunt dui nec libero ultrices tincidunt. Suspendisse ut risus elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tempor nunc vitae quam efficitur, quis bibendum lectus mattis. Maecenas justo massa, feugiat ut laoreet vel, condimentum et magna.</p>
 
-                <hr>
-
-                <div class="row">
-                  <div class="col-sm-4">
-                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/car-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="2046539607" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" height="55" width="76"></p>
-
-                    <h3 style="text-align: center;">Free delivery</h3>
-                    <p style="text-align: center;">Have a car delivered or meet us at our location for a completely free, zero-obligation, 24-hour test drive!</p>
-                    &nbsp;
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                  <h4>Estimate my payment</h4>
                   </div>
-                  <div class="col-sm-4">
-                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/dollar-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="3040351411" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" height="55" width="76"></p>
-
-                    <h3 style="text-align: center;">Trade in Appraisal</h3>
-                    <p style="text-align: center;">Are you planning on trading in your current car? Figure out how much your current car is worth.</p>
-                    &nbsp;
+                  <div class="panel-body">
+                    <form class="form form-long">
+                      <div class="form-group form-group-lg"><label>Trade in value:</label>
+                        <div class="input-group">
+                          <div class="input-group-addon">$</div>
+                          <p><input class="form-control" placeholder="What is your trade in worth?" type="text"></p>
+                          <div class="input-group-addon"><a class="" href="#">get trade in value</a></div>
+                        </div>
+                      </div>
+                      <div class="form-group form-group-lg"><label>Vehicle price:</label>
+                        <div class="input-group">
+                        <div class="input-group-addon">$</div>
+                        <p><input class="form-control" placeholder="What is the vehicle price?" type="number"></p></div>
+                      </div>
+                      <div class="form-group form-group-lg">
+                        <label>Down payment</label>
+                        <div class="input-group">
+                        <div class="input-group-addon">$</div>
+                        <p> <input class="form-control" placeholder="What is your down payment?" type="number">
+                        </p></div>
+                      </div>
+                      <div class="form-group form-group-lg">
+                        <label>Choose your estimated credit score:</label>
+                        <div class="btn-group btn-group-justified btn-group-lg" data-toggle="buttons">
+                          <label class="btn btn-default"><input name="options" id="750-893" type="radio">750-893</label><label class="btn btn-default"><input name="options" id="700-749" type="radio">700-749</label><label class="btn btn-default"><input name="options" id="650-699" type="radio">650-699</label><label class="btn btn-default"><input name="options" id="600-649" type="radio">600-649</label><label class="btn btn-default"><input name="options" id="253-599" type="radio">253-599</label>
+                        </div>
+                      </div>
+                      <div class="form-group form-group-lg"><label>Loan percentage (APR):</label>
+                        <div class="input-group">
+                        <div class="input-group-addon">%</div>
+                        <p> <input class="form-control" value="" placeholder="Choose a credit score estimate above" type="number"></p></div>
+                      </div>
+                      <div class="form-group form-group-lg"><label>Loan payoff time:</label>
+                        <div class="btn-group btn-group-justified btn-group-lg" data-toggle="buttons">
+                          <label class="btn btn-default"><input name="term" id="24" type="radio">2 years (24)</label><label class="btn btn-default"><input name="term" id="36" value="36" type="radio">3 years (36)</label><label class="btn btn-default"><input name="term" value="48" type="radio">4 years (48)</label><label class="btn btn-default"><input name="term" value="60" type="radio">5 years (60)</label><label class="btn btn-default"><input name="term" value="72" type="radio">6 years (72)</label>
+                        </div>
+                      </div>
+                      <div class="form-group" id="payment">
+                        <div class="well well-lg">
+                          <h1 class="centered">$587 per month</h1>
+                          <h4 class="text-muted centered">$XX,XXX total amount borrowed, not including fees</h4>
+                        </div>
+                      </div>
+                      <div class="form-group form-group-lg"><a href="#createAccountModal" data-toggle="modal" data-target="#createAccountModal" class="btn btn-block btn-success btn-lg">Save my payment</a><p></p>
+                        <p class="centered text-muted">*All rates and terms are subject to approval from lending institution.</p>
+                      </div>
+                    </form>
                   </div>
-                  <div class="col-sm-4">
-                    <p style="text-align: center;"><img src="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/wp-content/uploads/2017/01/clipboard-icon.png" alt="car-icon" class="alignnone size-full wp-image-17228" pagespeed_url_hash="2000891693" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></p>
-
-                    <h3 style="text-align: center;">Online process</h3>
-                    <p style="text-align: center;">Our revolutionary process is completed nearly 100% online</p>
-                    &nbsp;
-
-                  </div>
-                </div>&nbsp;    
+                </div>
+                <p><a class="btn btn-default btn-block btn-lg" href="#">Pay with cash, card or wire transfer</a></p>
               </div>
-              <section>
-                <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="btn btn-lg btn-success btn-block">Get started</a>
-              </section>
             </article>
           </div>
           <div class="col-sm-2">
             <h1><small>&nbsp;</small>Steps:</h1>
             <div class="list-group" id="checkout-steps">
-              <a href="/checkout?v=15423" class="list-group-item active"><span class="badge">?</span>Instructions</a>
-              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="list-group-item"><span class="badge">1</span> Trade In</a>
-              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/calculate-payment/?v=15423" class="list-group-item"><span class="badge">2</span> Payment</a>
+              <a href="/checkout?v=15423" class="list-group-item"><span class="badge badge-success"><span class="glyphicon glyphicon-ok"></span></span>Instructions</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/trade-in-value/?v=15423" class="list-group-item "><span class="badge">1</span> Trade In</a>
+              <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/calculate-payment/?v=15423" class="list-group-item active"><span class="badge">2</span> Payment</a>
               <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/contact-information/?v=15423" class="list-group-item"><span class="badge">3</span> Contact info</a>
               <a href="http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/checkout/credit-application/?v=15423" class="list-group-item"><span class="badge">4</span> Pre-approval</a>
             </div>

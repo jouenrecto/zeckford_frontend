@@ -297,7 +297,7 @@ body {
   margin-bottom: 20px;
   position: relative;
   width: 30%;
-  border:0;
+  /*border:0;*/
   box-shadow: none;
 }
 
@@ -318,7 +318,7 @@ body {
 .panel:before, .panel:after {
   content:"";
   width: 1px;
-  left: 10px;
+  /*left: 10px;*/
   top:0;
   bottom: 0;
   position: absolute;
