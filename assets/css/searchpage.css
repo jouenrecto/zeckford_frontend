@@ -1,0 +1,4 @@
+.vertical-menu .btn-group-vertical { margin: 0 0 10px; width: 100%; }
+.vertical-menu .btn-group-vertical a { position: relative; }
+.vertical-menu .btn-group-vertical a .badge.pull-right { display: unset; font-size: 12px; font-weight: 200; position: absolute; right: 8px; top: 4px; }
+.vertical-menu .dropdown-menu { width: 100%; }
