@@ -43,27 +43,23 @@
 }
 
 .close-button {
-  display: none;
-  height: 45px;
-  width: 45px;
   color: #fff;
-  position: fixed;
-  top: 80px;
-  right: 15px;
-  font-size: 32px;
-  text-align: center;
   cursor: pointer;
+  display: none;
+  font-size: 14px;
+  height: 45px;
+  opacity: 0.75;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  top: 80px;
   z-index: 9999;
-  opacity: .75;
-}
-
-.close-button:before {
-  content: '×';
 }
 
 .close-button:hover,
 .close-button:active {
   opacity: 1;
+  text-decoration: none;
 }
 
 .fullscreen {
@@ -103,4 +99,60 @@
 .fullscreen .gallery-thumbs:hover {
   opacity: 1;
   transition-delay: 0s;
+}
+
+#single-content p {
+  color: #999;
+  font-size: 16px;
+}
+
+#gallery {
+  clear: both;
+  overflow: auto;
+}
+
+.well {
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  margin-bottom: 20px;
+  min-height: 20px;
+  padding: 19px;
+}
+
+#gallery .photo {
+  float: left;
+  margin: 0 0 20px;
+  width: 49%;
+}
+
+#gallery .photo a { 
+  cursor: zoom-in;
+}
+
+#gallery .photo:nth-child(2n+1) {
+  margin-right: 2%;
+  width: 49%;
+}
+
+.mobile-padding {
+  margin-bottom: 30px;
+}
+
+.mobile-padding img {
+  width: 100%;
+}
+
+.h120 {
+  height:120px;
+}
+
+.valuex {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.breadcrumbs {
+  margin-bottom: 15px;
 }
