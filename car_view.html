@@ -577,10 +577,137 @@
                 <a href="#" class="btn btn-block btn-lg btn-primary">View Carfax</a>
               </div>
             </div>
+
+            <div class="clearfix mbottom30"></div>
+
+            <div class="mobile-padding" id="all-fields">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3>Specifications</h3>
+                </div>
+                <table class="table table-striped table-bordered">
+                  <tbody>
+                    <tr><td><strong>Type:</strong></td><td class="word-break">Used</td></tr>
+                    <tr><td><strong>Year:</strong></td><td class="word-break">2013</td></tr>
+                    <tr><td><strong>Body style:</strong></td><td class="word-break">Sedan</td></tr>
+                    <tr><td><strong>Exterior color:</strong></td><td class="word-break">Black</td></tr>
+                    <tr><td><strong>Interior color:</strong></td><td class="word-break">Black</td></tr>
+                    <tr><td><strong>Engine:</strong></td><td class="word-break">5.5L 8-Cylinder DGI Turbocharged DOHC</td></tr>
+                    <tr><td><strong>Transmission:</strong></td><td class="word-break">7-Speed Automatic</td></tr>
+                    <tr><td><strong>Fuel type:</strong></td><td class="word-break">Gasoline</td></tr>
+                    <tr><td><strong>Drive line:</strong></td><td class="word-break">RWD</td></tr>
+                    <tr><td><strong>Doors:</strong></td><td class="word-break">4</td></tr>
+                  </tbody>
+              </table>
+              </div>
+            </div>
+
+            <div class="clearfix mbottom30"></div>
+
+            <div class="panel panel-default" id="kbb">
+              <div class="panel-body">
+                <a href="#"><img src="assets/images/kbb.jpg" pagespeed_url_hash="3859180833" style="max-width: 100%"></a>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Enter your email address" type="text">
+                </div>
+                <a href="/checkout/trade-in-value/?v=15370" class="btn btn-block btn-lg btn-info">What's my car worth?</a>
+              </div>
+            </div>
+
+            <div class="clearfix mbottom30"></div>
+
+            <div id="share">
+              <div class="panel panel-default mobile-fluid">
+                <div class="panel-body">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/used/black-2013-mercedes-benz-cls-class-cls63-amg/" class="btn btn-block btn-lg btn-default">Share on Facebook</a>
+                  <a target="_blank" href="https://twitter.com/home?status=http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/used/black-2013-mercedes-benz-cls-class-cls63-amg/" class="btn btn-block btn-lg btn-default">Share on Twitter</a>
+                  <a target="_blank" href="mailto:sales@zeckford.com?subject=Share&amp;body=Visit this page: http://ec2-54-193-18-9.us-west-1.compute.amazonaws.com/used/black-2013-mercedes-benz-cls-class-cls63-amg/" class="btn btn-block btn-lg btn-default">Email this page</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix mbottom30"></div>
+
+            <div class="panel panel-default mobile-fluid" id="pricePanel">
+              <ul class="list-group">
+                <li class="list-group-item">
+                <h3>
+                  <img src="assets/images/car_view_slides/image-1.jpg" style="max-width: 30%" class="pull-left" pagespeed_url_hash="1802512068" >
+                  Black 2013 Mercedes-Benz CLS-Class CLS63 AMG              </h3>
+                </li>
+                              <li class="list-group-item">
+                  <h1><strong>MSRP: </strong>
+                    $57,575                 </h1>
+                </li>
+                                                  <li class="list-group-item">
+                  <h1><strong>Dealer discount: </strong>
+                    -$7,580</h1>
+                  </li>
+                              <li class="list-group-item">
+                  <h1 class="text-danger"><strong>Selling price:</strong>
+                    $49,995                 </h1>
+                </li>
+              </ul>
+              <div class="panel-body">
+                <a href="#testDriveModal" class="btn btn-block btn-lg btn-info" data-toggle="modal" data-target="#testDriveModal">Schedule a test drive</a>
+                <a class="btn btn-primary btn-lg btn-block" data-toggle="modal" href="#calculatorModal">Calculate payment</a>
+                <a href="/checkout/?v=15370" class="btn btn-block btn-lg btn-success">Get pre-approved</a>
+                <a class="btn btn-default btn-lg btn-block save-post localstorage active btn-danger" data-post="15370"><span class="glyphicon glyphicon-star"></span> Saved</a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </section>
+
+    <div class="modal fade in" id="testDriveModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title" id="myModalLabel">Schedule a free test drive</h4>
+          </div>
+          <div class="modal-body">
+            <div class="thumb">
+              <img class="pull-left" src="assets/images/car_view_slides/image-1.jpg" pagespeed_url_hash="1542778918" style="max-width: 45%">
+              <h3>Sterling Gray Metallic 2012 Ford Focus SEL</h3>
+            </div>
+            <form method="post" id="scheduleForm" action="/wp-content/themes/zeckford/inc/schedule.php" enctype="multipart/form-data" novalidate="novalidate">
+              <div class="form-group">
+                <label>Name:</label>
+                <input class="form-control" name="name" placeholder="First and last name" type="text">
+              </div>
+              <div class="form-group">
+                <label>Email address:</label>
+                <input class="form-control" name="email" placeholder="Email address" type="email">
+              </div>
+              <div class="form-group">
+                <label>Phone:</label>
+                <input class="form-control" name="number" placeholder="Phone number" type="text">
+              </div>
+              <div class="form-group">
+                <label>What day?</label>
+                <select name="day" id="day" class="form-control">
+                <option value="no time selected">Choose a time</option>
+                  <option value="today morning">Tomorow morning</option>
+                  <option value="today afternoon">Tomorow afternoon</option>
+                  <option value="today evening">Tomorow evening</option>
+                  <option value="tomorrow morning">Tomorow morning</option>
+                  <option value="tomorrow afternoon">Tomorow afternoon</option>
+                  <option value="tomorrow evening">Tomorow evening</option>
+                  <option value="no time selected">A different time</option>
+                </select>
+              </div>
+          </form></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <input id="submit" name="submit" class="btn btn-primary" value="Schedule test drive" type="submit">
+          </div>
+          
+        </div>
+      </div>
+    </div>
 
     <section class="section footer-section">
       <div id="footer" class="container">
@@ -677,6 +804,37 @@
             }
          });
       }
+
+      $(function(){
+        var pos = $('#pricePanel').offset().top;
+        var width = $('#pricePanel').width();
+        
+        if ($(window).scrollTop() > pos) {
+          if(!$('#pricePanel').hasClass('fixed')) {
+            $('#pricePanel').addClass('fixed');
+            $('#pricePanel').css('width', width);
+          }
+          
+        }else if(pos > $(window).scrollTop()) {
+          $('#pricePanel').removeClass('fixed');
+          $('#pricePanel').css('width', 'auto');
+        }
+
+        $(window).on('scroll', function() {
+            var window_scrollTop = $(this).scrollTop();
+            if (window_scrollTop > pos) {
+              if(!$('#pricePanel').hasClass('fixed')) {
+                $('#pricePanel').addClass('fixed');
+                $('#pricePanel').css('width', width);
+              }
+              
+            }else if(pos > window_scrollTop) {
+              $('#pricePanel').removeClass('fixed');
+              $('#pricePanel').css('width', 'auto');
+            }
+        });
+      });
+
     </script>
     <script src="assets/plugins/jquery_lazyload/jquery.lazyload.js"></script>
     <script>

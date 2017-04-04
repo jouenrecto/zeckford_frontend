@@ -156,3 +156,16 @@
 .breadcrumbs {
   margin-bottom: 15px;
 }
+
+#pricePanel.fixed {
+    position: fixed;
+    top: 100px;
+}
+
+h1 strong {
+    color: #888888;
+    display: block;
+    font-size: 50%;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
